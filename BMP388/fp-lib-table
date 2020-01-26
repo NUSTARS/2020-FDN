@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Adafruit BMP388")(type KiCad)(uri "C:/Users/ghast/Documents/KiCad/BMP388 - Eagle/Adafruit BMP388.pretty")(options "")(descr ""))
+  (lib (name BMP388)(type KiCad)(uri ${KIPRJMOD}/BMP388.pretty)(options "")(descr ""))
+)
