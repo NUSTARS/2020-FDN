@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name BMP388)(type KiCad)(uri "C:/Users/selin/Documents/GitHub/2020-FDN/Individual KiCad Components/BMP388/BMP388.pretty")(options "")(descr ""))
+  (lib (name NUSTARS)(type KiCad)(uri ${KIPRJMOD}/NUSTARS.pretty)(options "")(descr ""))
+  (lib (name Connector_Samtec_HLE_SMD-ML)(type KiCad)(uri "C:/Users/selin/Downloads/RPi_Zero_pHat_Template-master (2)/RPi_Zero_pHat_Template-master/footprints/Connector_Samtec_HLE_SMD-ML.pretty")(options "")(descr ""))
+  (lib (name "Raspberry Pi Zero")(type KiCad)(uri "C:/Users/selin/Downloads/Raspberry Pi Zero/Raspberry Pi Zero.pretty")(options "")(descr ""))
+)

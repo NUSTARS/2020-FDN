@@ -25,17 +25,6 @@ F 3 "" H 1750 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driver_Motor:VNH5019A-E U?
-U 1 1 5E48A221
-P 2450 5900
-F 0 "U?" H 2450 6681 50  0000 C CNN
-F 1 "VNH5019A-E" H 2450 6590 50  0000 C CNN
-F 2 "Package_SO:ST_MultiPowerSO-30" H 3350 5350 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf" H 2000 6750 50  0001 C CNN
-	1    2450 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L BMP388:BMP388 U2
 U 1 1 5E48BA81
 P 8300 5000
@@ -79,8 +68,6 @@ Text GLabel 1550 2150 0    50   Input ~ 0
 3.3V
 Text GLabel 7550 4650 0    50   Input ~ 0
 3.3V
-Text GLabel 1550 2550 0    50   Input ~ 0
-GND
 Text GLabel 7550 4850 0    50   Input ~ 0
 GND
 Text GLabel 1550 1550 0    50   Input ~ 0
@@ -93,14 +80,29 @@ Text GLabel 7550 5150 0    50   Input ~ 0
 SDA
 Text GLabel 1550 2950 0    50   Input ~ 0
 GPIO_PWM
-Text GLabel 1950 5700 0    50   Input ~ 0
-GPIO_PWM
 Text GLabel 1550 1850 0    50   Input ~ 0
-GPIO_INA
-Text GLabel 1950 5500 0    50   Input ~ 0
 GPIO_INA
 Text GLabel 1550 1950 0    50   Input ~ 0
 GPIO_INB
-Text GLabel 1950 5600 0    50   Input ~ 0
+$Comp
+L NUSTARS:VHN5019_Breakout U3
+U 1 1 5E4A476C
+P 2100 5100
+F 0 "U3" H 2475 5275 50  0000 C CNN
+F 1 "VHN5019_Breakout" H 2475 5184 50  0000 C CNN
+F 2 "" H 2900 5200 50  0001 C CNN
+F 3 "" H 2900 5200 50  0001 C CNN
+	1    2100 5100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2000 5150 0    50   Input ~ 0
+GPIO_INA
+Text GLabel 2000 5650 0    50   Input ~ 0
 GPIO_INB
+Text GLabel 2000 5350 0    50   Input ~ 0
+GPIO_PWM
+Text GLabel 2000 5850 0    50   Input ~ 0
+GND
+Text GLabel 2000 5750 0    50   Input ~ 0
+3.3V
 $EndSCHEMATC

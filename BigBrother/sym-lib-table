@@ -2,4 +2,5 @@
   (lib (name Connector-ML)(type Legacy)(uri "C:/Users/selin/Downloads/RPi_Zero_pHat_Template-master (2)/RPi_Zero_pHat_Template-master/symbols/Connector-ML.lib")(options "")(descr ""))
   (lib (name BMP388)(type Legacy)(uri "C:/Users/selin/Documents/GitHub/2020-FDN/Individual KiCad Components/BMP388/BMP388.lib")(options "")(descr ""))
   (lib (name bno055-breakout)(type Legacy)(uri C:/Users/selin/Documents/GitHub/2020-NSL-RoverBoard/libs/bno055-breakout.lib)(options "")(descr ""))
+  (lib (name NUSTARS)(type Legacy)(uri C:/Users/selin/Documents/GitHub/2020-NSL-RoverBoard/NUSTARS.lib)(options "")(descr ""))
 )
