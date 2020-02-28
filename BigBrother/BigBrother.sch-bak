@@ -90,7 +90,7 @@ GPIO_INB
 Text GLabel 2000 5350 0    50   Input ~ 0
 GPIO_PWM
 Text GLabel 2000 5850 0    50   Input ~ 0
-GND2
+GND
 Text GLabel 2000 5750 0    50   Input ~ 0
 3.3V
 $Comp
@@ -105,5 +105,7 @@ F 3 "" H 1750 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 2250 2    50   Input ~ 0
-GND2
+GND
+Text GLabel 1550 1350 0    50   Input ~ 0
+3.3V
 $EndSCHEMATC
