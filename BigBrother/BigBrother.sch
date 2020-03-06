@@ -120,4 +120,8 @@ Text GLabel 3450 2750 2    50   Input ~ 0
 GND
 Text GLabel 3450 2950 2    50   Input ~ 0
 GND
+Text GLabel 7800 2950 0    50   Input ~ 0
+RST
+Text GLabel 3450 1850 2    50   Input ~ 0
+RST
 $EndSCHEMATC
